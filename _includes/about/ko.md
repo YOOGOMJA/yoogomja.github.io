@@ -17,16 +17,16 @@
 
 #### 프로젝트에 사용해본 기술들
 
-Front-End 😎
-: html, css, jquery, angular, vuejs, reactjs
-Back-End 😆
-: ASP.NET, nodejs+express, django, django+restframework
-Infrastructure 😂
-: aws(s3, rds, ec2, elastic beanstalk), gcp(cloud storage, app engine, compute engine, cloud sql), heroku, wordpress(php), git
-App / Hybrid 🙌
-: react-native, cordova 
-Lang or ETC 😍
-: Javascript, C#, objective c, python, MSSQL, MySQL, MariaDB
+Front-End 😎    
+: html, css, jquery, angular, vuejs, reactjs    
+Back-End 😆    
+: ASP.NET, nodejs+express, django, django+restframework    
+Infrastructure 😂    
+: aws(s3, rds, ec2, elastic beanstalk), gcp(cloud storage, app engine, compute engine, cloud sql), heroku, wordpress(php), git    
+App / Hybrid 🙌    
+: react-native, cordova     
+Lang or ETC 😍    
+: Javascript, C#, objective c, python, MSSQL, MySQL, MariaDB    
 
 #### 공부해본 기술들
 jsp, spring, flutter, dart, redis, mongodb, swift, webpack, jest, jenkins

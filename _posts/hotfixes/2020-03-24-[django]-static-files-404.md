@@ -5,7 +5,7 @@ subtitle: '배포시 conf 파일 수정하기'
 author: "yoogomja"
 header-style: text
 tags:
-  - Django
+  - django
   - nginx
   - deploy
   - docker

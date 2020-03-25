@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[django] 장고 nginx 배포 시 '/static/' 경로의 404에러"
+title: "[django] 장고 nginx 배포 시 static 경로의 404에러"
 subtitle: '배포시 conf 파일 수정하기'
 author: "yoogomja"
 header-style: text

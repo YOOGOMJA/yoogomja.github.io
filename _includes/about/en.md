@@ -1,48 +1,68 @@
-> Your time is limited, so don’t waste it living someone else’s life. 
+> OLDROOKIE CO., LTD.'s CTO and freelance web / app developer.
 
-Hi, I am _@huxpro_ (Huang, Xuan), a [Facebook](https://www.facebook.com/) software engineer and a professed digital designer. My interests range from programming languages in general (type system, type-based formal verification, compiler construction, runtime system) to indurstial software engineering (web/mobile app development, user interface and UX, developer infra and DX). 
+## I'm Yoo. Web/App Developer.
 
-In the past, I worked on [Alitrip (Fliggy)](https://www.alitrip.com/) mobile and web apps under the [Alibaba Group](https://en.wikipedia.org/wiki/Alibaba_Group), found and lead front-end infrastructure team at a unicorn startup [Beijing Weiying (WePiao)](https://www.crunchbase.com/organization/beijing-weiying-technology), and helped [Ele.me](https://en.wikipedia.org/wiki/Ele.me) to upgrade their mobile web into [the first influential PWA (progressive web app) in China](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509).
+ I'm live in Republic of Korea, and now I graduated at last year. Now, I'm CTO of [OldRookie CO., LTD.][1]. It is engaged in all of our development process, and the main development contents are web / app development and WebXR development. First of our content is [Homepage of our company][1]. Now days, I'm developing an app for Masterpiece, a mobile VR exhibition content using WebXR, and producing it with React Native.
+ 
+ I have been in charge of web development and app development at [U-CRM][2] for 2 years and half from 2013. I participated in the introduction of angular on the homepage and also participated in iOS development.
+ In 2016, I worked for [WideMobile][3] for about 6 months and took charge of web maintenance. In addition, I participated in [app development][4] and to develop a hybrid connection between native code and javascript. I was also involved in the task of getting security certification.
+ 
+ At Sahmyook University, I involved in Google's [DSC (Developer Student Club)][5] Now, I'm participate as a core member. At the same time, I was a member of [likelion shamyook][6] for 1 year. I was also able to participate in various activities here.
 
-I studied BA, Digital Media Art at [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) and MS, Computer Science at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology), with a focus on programming languages theory and construction.
+> I am very interested in web / apps, and recently I am interested in the process of setting up a development environment and managing a project.
 
+## about skills
 
-##### My Programming Languages Spectrum
+Here are some of the techniques I used in projects, or used to learn or have an interest.
 
-I generally prefer languages that are close to ML ("Meta Language"), i.e. _mostly functional programming_. This should explain most of my picks e.g. JavaScript within dynamically-typed's, Scala within JVM's, Rust within unmanaged's.
+### I used in Projects.
 
-> __Left-right__ is how much I prefer it.  __Top-down__ is how much I know it. __Versions__ are lower bounds.
+#### Front-End 😎    
+: html, css, jquery, angular, vuejs, reactjs    
 
-|     | 💔️           | ❤️ ️                   | ❤️❤️ ️             | ❤️❤️❤️ ️               |
-| --- | ------------- | ---------------------- | ------------------ | ---------------------- |
-| 😅  | `PHP` `BASIC` | `ObjC` `Prolog` `Hack` | `Kotlin` `Dart`    | `Swift` `Agda` `Idris` |
-| 🧐  |               | `Asm` `C++`  `Lisp*`   | `C++11` `C#` `AS3` | `Scala` `Rust`         |
-| 😏  | `Shell`       | `C` `Java` `Python`    | `Typed JS*` `Wasm` | `Haskell` `Coq` `ML*`  |
-| 🤓  |               | `JavaScript`           | `ECMAScript6`      | `λ` `Λ` `Π` `Σ`        |
+#### Back-End 😆    
+: ASP.NET, nodejs+express, django, django+restframework    
 
-> __`ML*`__: `OCaml` `ReasonML` `Standard ML`  
-> __`Lisp*`__: `Clojure` `Scheme` `Racket`  
-> __`Typed JS*`__：`Flow` `TypeScript`
+#### Infrastructure 😂    
+: aws(s3, rds, ec2, elastic beanstalk), gcp(cloud storage, app engine, compute engine, cloud sql), heroku, wordpress(php), git    
 
+#### App / Hybrid 🙌    
+: react-native, cordova     
 
-##### Talks
+#### Lang or ETC 😍    
+: Javascript, C#, objective c, python, MSSQL, MySQL, MariaDB, WebXR  
 
-- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
-- [Service Worker 101][5] · GDG DevFest Beijing 2016
-- [Progressive Web Apps][4] · QCon Shanghai 2016
-- Progressive Web App in my POV · GDG IO Redux Beijing 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
+### used to learn
+jsp, spring, flutter, dart, redis, mongodb, swift, webpack, jest, jenkins
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
+### have an interest 
+docker, kotlin, go, deno
+
+## Projects
+
+As I started learning development, I participated in various projects. Here are a few projects you might want to share.
+
+### Dev Projects
+- Prototyping of Old Rookie's [WebXR Exhibition Project][7]
+- Old Rookie's [Company homepage][1]
+- Sahmyook University [Development of festival / athletic sports events website] [9](django + angular + aws ...)
+- [ClickJob][11] iOS Application(cordova, angular)
+
+### Academic / Study / Presentation
+- [WebXR presentation][8] at DSC DevFest 2019
+- Participation of Django Session of LikeLion SYU.
+- Participation of Web Session of LikeLion SYU.
+- Participation of Web Session of DSC SYU.
+- Charged [javascript Study][11] in LikeLion SYU.
+
+[1]: http://www.oldrookiecorp.com
+[2]: http://www.u-pds.com
+[3]: https://www.wifidosirak.com
+[4]: https://apps.apple.com/kr/app/%EC%99%80%EC%9D%B4%EB%93%9C%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4%EB%8F%84%EC%8B%9C%EB%9D%BD/id1162744579
+[5]: https://sites.google.com/view/dscsahmyook
+[6]: http://sahmyook.likelion.org
+[7]: https://masterpiece-aframe-demo.glitch.me/index.v2.html
+[8]: https://www.facebook.com/gdgcampus/photos/a.468622510424827/472058316747913/?type=3
+[9]: https://github.com/likelion-syu/syufesta
+[10]: https://play.google.com/store/apps/details?id=com.clickjobkorea.app&hl=ko
+[11]: https://github.com/YOOGOMJA/javascript_study

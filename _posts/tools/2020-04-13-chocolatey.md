@@ -49,11 +49,11 @@ tags:
 
 #### 설치
 
-1. `powershell` 실행 
+- [x] `powershell` 실행 
 
 우선 `powershell`을 관리자 모드로 실행해주자. 파일 경로에 직접 접근하는 일이 많아서 그런듯 하다. 
 
-2. `Get-ExecutionPolicy` 설정
+- [x] `Get-ExecutionPolicy` 설정
 
 그리고 나서 위에 언급한 `Get-ExecutionPolicy`설정을 해주어야 하는데, 일단 `powershell`을 실행한 후 `Get-ExecutionPolicy`라는 명령어를 입력해주자. 만약 `Restricted`라는 응답이 출력된다면, `Set-ExecutionPolicy AllSigned` 혹은 `Set-ExecutionPolicy Bypass -Scope Process`라고 입력해주자. 나는 `AllSigned`를 실행해줬다.
 
@@ -63,7 +63,7 @@ tags:
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
-3. 설치 확인 
+- [x] 설치 확인 
 
 모두 설치가 끝나고 나면, `choco` 혹은 `choco -?`를 입력해 명령어 내용들이 나오며 설치가 됐음을 확인할 수 있다.
 

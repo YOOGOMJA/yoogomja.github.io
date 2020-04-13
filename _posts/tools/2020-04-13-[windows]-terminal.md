@@ -41,7 +41,7 @@ tags:
     {
         "defaults":
         {
-            // 기본 profile
+            
         },
         "list":[
             // ... 

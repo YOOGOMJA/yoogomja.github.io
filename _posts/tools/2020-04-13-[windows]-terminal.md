@@ -41,12 +41,12 @@ tags:
     {
         "defaults":
         {
-
+            // 기본 profile
         },
         "list":[
             // ... 
             // powershell / cmd 설정 내용 
-            
+
             // BASH 설정 내용
             {
                 "guid": "{00000000-0000-0000-ba54-000000000002}",

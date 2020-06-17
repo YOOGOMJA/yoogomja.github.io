@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[mongoose] countDocuments와 페이징 구현"
+title: "countDocuments와 페이징 구현"
 subtitle: "mongoose에서 페이징을 구현해보자"
 author: "yoogomja"
 header-style: text

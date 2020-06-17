@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[nodejs] React + NodeJS X Express 연결하기"
+title: "React + NodeJS X Express 연결하기"
 subtitle: "React 프로젝트를 빌드하고 NodeJS X Express에 연결해보자"
 author: "yoogomja"
 header-style: text

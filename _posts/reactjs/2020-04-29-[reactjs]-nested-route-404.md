@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[reactjs] hooks와 react-router의 중첩 Route와 404 페이지 설정하기"
+title: "hooks와 react-router의 중첩 Route와 404 페이지 설정하기"
 subtitle: "typescript, hooks와 함께 디테일한 react-router 다루기!"
 author: "yoogomja"
 header-style: text

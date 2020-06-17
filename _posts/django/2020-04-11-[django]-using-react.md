@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[django] React + Django 환경설정 하기"
+title: "React + Django 환경설정 하기"
 subtitle: 'React 프로젝트를 빌드하고 Django에 연동해보자'
 author: "yoogomja"
 header-style: text

@@ -11,9 +11,13 @@ tags:
     - promise
 ---
 
-진행 중인 사이드 프로젝트에서 `github REST api`를 사용중에 있다. 기본적인 조회부터 꽤 다양한 항목들을 수행할 수 있는데 이번 프로젝트에서는 주로 조회에 관련된 기능들을 이용해 작업중에 있다. [Github API Document](https://developer.github.com/v3/)
+진행 중인 사이드 프로젝트에서 `github REST api`를 사용중에 있다. 기본적인 조회부터 꽤 다양한 항목들을 수행할 수 있는데 이번 프로젝트에서는 주로 조회에 관련된 기능들을 이용해 작업중에 있다. 
 
-사용하기에 앞서 요청 가능량을 알아둘 필요가 있는데, `github REST API`에서 인증된 요청에 한해서는 한 시간당 5000번의 요청이 가능하고 인증되지 않은 요청에서는 한시간당 60건의 요청이 가능하다.([원문](https://developer.github.com/v3/#rate-limiting)) 정기적으로 정보를 크롤링해오는 서비스 특성상 필요한 요청만 하더라도 인증이 필요하다. 이때 개인의 인증된 요청은 `github` 계정에서 `Personal Access Token`을 생성하고 해당 토큰을 넘겨주면 된다. [Personal Access Token 관련 링크 ](https://www.openshift.com/blog/private-git-repositories-part-3-personal-access-tokens) 
+[Github API Document](https://developer.github.com/v3/)
+
+사용하기에 앞서 요청 가능량을 알아둘 필요가 있는데, `github REST API`에서 인증된 요청에 한해서는 한 시간당 5000번의 요청이 가능하고 인증되지 않은 요청에서는 한시간당 60건의 요청이 가능하다.([원문](https://developer.github.com/v3/#rate-limiting)) 정기적으로 정보를 크롤링해오는 서비스 특성상 필요한 요청만 하더라도 인증이 필요하다. 이때 개인의 인증된 요청은 `github` 계정에서 `Personal Access Token`을 생성하고 해당 토큰을 넘겨주면 된다. 
+
+[Personal Access Token 관련 링크 ](https://www.openshift.com/blog/private-git-repositories-part-3-personal-access-tokens) 
 
 # 1. nodejs에서 github REST API 요청하기
 
@@ -44,7 +48,11 @@ X-RateLimit-Reset: 1372700873
 
 ## 1. 기본 사용 법 
 
-`github` 측에서 제공하는 `nodejs`패키지 명은 `octonode`[링크](https://github.com/pksunkara/octonode)이다. `yarn add octonode` 혹은 `npm install octonode`로 설치할 수 있다. 해당 패키지를 사용하는 예제 코드는 아래와 같다. 
+`github` 측에서 제공하는 `nodejs`패키지 명은 `octonode`이다. `yarn add octonode` 혹은 `npm install octonode`로 설치할 수 있다. 
+
+[octonode 저장소](https://github.com/pksunkara/octonode)
+
+해당 패키지를 사용하는 예제 코드는 아래와 같다. 
 
 ```javascript
 import github from 'octonode';

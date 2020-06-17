@@ -19,7 +19,7 @@ tags:
 
 [Personal Access Token 관련 링크 ](https://www.openshift.com/blog/private-git-repositories-part-3-personal-access-tokens) 
 
-# 1. nodejs에서 github REST API 요청하기
+# 1. github REST API 요청하기
 
 `github REST API`의 주소형태는 기본적으로 아래와 같은 형태를 띈다
 

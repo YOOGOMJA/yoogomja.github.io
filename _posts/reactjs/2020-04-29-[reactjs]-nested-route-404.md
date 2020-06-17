@@ -19,7 +19,7 @@ tags:
 
 Not found 페이지를 추가 하는 걸 먼저 진행했는데, 생각보다 염두에 두어야 하는 구조가 있었다.
 
-```javascript
+```tsx
 // index.tsx
 // ...
 ReactDOM.render(
@@ -55,7 +55,7 @@ ReactDOM.render(
 
 그러기 위해서 `Route` 컴포넌트를 중첩하기로 했다. 소스는 아래와 같다.
 
-```javascript
+```tsx
 // ...
 ReactDOM.render(
     <React.StrictMode>
@@ -105,7 +105,7 @@ ReactDOM.render(
 
 우선 위 코드에서 사용된 `UserDetailScene` 컴포넌트의 간략한 내용은 다음과 같다.
 
-```javascript
+```tsx
 import React, { useEffect, useState } from "react";
 import { useParams, useHistory } from "react-router";
 import { CommonStyles } from "../../styles";

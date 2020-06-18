@@ -6,7 +6,7 @@ author: "yoogomja"
 header-style: text
 tags:
     - nodejs
-    - expres
+    - express
     - github-api
     - promise
 ---

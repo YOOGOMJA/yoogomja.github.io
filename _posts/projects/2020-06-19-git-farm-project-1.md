@@ -18,11 +18,11 @@ tags:
 ### 프로젝트 회고 글타래 
 
 - [1. 토이 프로젝트 기획과 기술 정하기](https://yoogomja.github.io/2020/06/19/git-farm-project-1/)
-- ~2. 개발 환경 구성과 백엔드 개발하기(1) : mongoose + github API~
-- ~3. 백엔드 개발하기 (2) : passport + scheduler~
-- ~4. 프론트 개발하기 (1) : react + typescript~
-- ~5. 프론트 개발하기 (2) : react-redux + react-thunk~
-- ~6. 개발 사항 정리하기~
+- ~~2. 개발 환경 구성과 백엔드 개발하기(1) : mongoose + github API~~
+- ~~3. 백엔드 개발하기 (2) : passport + scheduler~~
+- ~~4. 프론트 개발하기 (1) : react + typescript~~
+- ~~5. 프론트 개발하기 (2) : react-redux + react-thunk~~
+- ~~6. 개발 사항 정리하기~~
 
 # 1. 개발 동기 
 

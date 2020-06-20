@@ -172,7 +172,18 @@ const EventScheme = mongoose.Schema({
 const Event = mongoose.model("Event" , EventScheme);
 ```
 
-나중에 `typescript`로 클라이언트 코드를 작성하면서 `interface`를 작성해보니 위와 굉장히 유사하다고 생각했다. 이런 유사점이 나중에 작업할 때 큰 도움이 되었었다. 
+나중에 `typescript`로 클라이언트 코드를 작성하면서 `interface`를 작성해보니 위와 굉장히 유사하다고 생각했다. 이런 유사점이 나중에 작업할 때 큰 도움이 되었었다.  
+
+이렇게 작성된 `mongoose` 모델들은 `db/models`라는 폴더에 모두 모아놨고, `index.js`를 만들어 모든 모델을 포함하게 해서 가져오기 쉽게 묶어서 사용했었다. 아래 같은 식이었다. 
+
+```javascript
+// 디비 불러오기 
+import * as Models from '../db/models';
+
+const allEvents = Models.Events.find();
+```
+
+이 방식은 이후에도 다양한 함수 묶음들을 정의해둘 때 유용하게 사용했었다. 폴더 아래 `index.js`파일을 만들어두면 `import * as _name from '/folder'`식으로 불러올 때 자동으로 `index.js`파일이 로드된다는 것을 우연히 다른 사람의 `react`코드를 보면서 배우게 되었는데, 이후에 프로젝트 구조에 정말 많은 영향을 끼치게 되었다. 
 
 ## 3.2. github API
 

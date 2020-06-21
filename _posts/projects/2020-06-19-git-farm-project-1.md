@@ -5,13 +5,7 @@ subtitle: "정원사 프로젝트 회고, 기획과 기술 정하기"
 author: "yoogomja"
 header-style: text
 tags:
-    - nodejs
     - project
-    - reactjs
-    - mongodb
-    - gcp
-    - docker
-    - github
     - study
 ---
 
@@ -20,10 +14,9 @@ tags:
 - [1. 토이 프로젝트 기획과 기술 정하기](https://yoogomja.github.io/2020/06/19/git-farm-project-1/)
 - [2. 개발 환경 구성과 백엔드 개발하기(1) : mongoose + github API](https://yoogomja.github.io/2020/06/20/git-farm-project-2/)
 - [3. 백엔드 개발하기 (2) : crawling + scheduler](https://yoogomja.github.io/2020/06/20/git-farm-project-3/)
-- ~~4. 프론트 개발하기 (1) : react + typescript~~
-- ~~5. 프론트 개발하기 (2) : react-redux + react-thunk~~
-- ~~6. 리팩토링하기~~
-- ~~7. 정리~~
+- [4. 프론트 개발하기](https://yoogomja.github.io/2020/06/21/git-farm-project-4/)
+- ~~5. 테스트와 리팩토링하기~~
+- ~~6. 정리~~
 
 # 1. 개발 동기 
 

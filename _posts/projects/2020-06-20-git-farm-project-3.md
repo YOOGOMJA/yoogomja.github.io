@@ -1,18 +1,17 @@
 ---
 layout: post
 title: "[정원사 프로젝트] 3. 백엔드 개발하기 (2)"
-subtitle: "정원사 프로젝트 회고, 개발 환경 구성과 백엔드 개발하기 : crawling + scheduler"
+subtitle: "정원사 프로젝트 회고, 백엔드 개발하기(2) : crawling + scheduler"
 author: "yoogomja"
 header-style: text
 tags:
-    - nodejs
     - project
-    - reactjs
+    - study
+    - nodejs
     - mongodb
     - gcp
     - docker
     - github
-    - study
 ---
 
 ### 프로젝트 회고 글타래 
@@ -20,10 +19,9 @@ tags:
 - [1. 토이 프로젝트 기획과 기술 정하기](https://yoogomja.github.io/2020/06/19/git-farm-project-1/)
 - [2. 개발 환경 구성과 백엔드 개발하기(1) : mongoose + github API](https://yoogomja.github.io/2020/06/20/git-farm-project-2/)
 - [3. 백엔드 개발하기 (2) : crawling + scheduler](https://yoogomja.github.io/2020/06/20/git-farm-project-3/)
-- ~~4. 프론트 개발하기 (1) : react + typescript~~
-- ~~5. 프론트 개발하기 (2) : react-redux + react-thunk~~
-- ~~6. 리팩토링하기~~
-- ~~7. 정리~~
+- [4. 프론트 개발하기](https://yoogomja.github.io/2020/06/21/git-farm-project-4/)
+- ~~5. 테스트와 리팩토링하기~~
+- ~~6. 정리~~
 
 # 1. 크롤링 하기
 
@@ -84,6 +82,8 @@ tags:
 
 # 정리하며
 
+## 이어진 개발 과정
+
 백엔드 개발은 이후, 정리해둔 API 목록대로 작업했다. 모든 API는 동일한 형태의 응답을 반환하도록 디자인 해두었었다. 자동으로 상태 코드와 메시지를 반환하지만, 내쪽에서도 몇가지 경우의 수를 준비해 둘 필요가 있었기 떄문에 다음과 같은 응답 형태를 띄도록 해두었었다.
 
 ```javascript
@@ -99,4 +99,30 @@ res.json({
 })
 ```
 
-모든 API에서 이런 기본 구조를 갖도록했다. 물론 이 덕분에 클라이언트 부에서 `response.data.data`같은 형태의 보기 힘든 코드가 생겨나게 되었는데, 자체적으로 만드는 에러같은 것들을 사용하기 위해서 이런 구조를 사용하게 되았다. 이런 구조를 띄는 것이 옳은지는 아직도 잘 모르겠다. 데이터 자체만 돌려주는 것이 맞는 것인지 저게 더 안전한 것인지 아직도 헷갈린다. 정말 갈길이 멀다 멀어 
+모든 API에서 이런 기본 구조를 갖도록했다. 물론 이 덕분에 클라이언트 부에서 `response.data.data`같은 형태의 보기 힘든 코드가 생겨나게 되었는데, 자체적으로 만드는 에러같은 것들을 사용하기 위해서 이런 구조를 사용하게 되았다. 이런 구조를 띄는 것이 옳은지는 아직도 잘 모르겠다. 데이터 자체만 돌려주는 것이 맞는 것인지 저게 더 안전한 것인지 아직도 헷갈린다. 
+
+## 주로 사용된 패키지들 
+
+정말 다양한 외부 기술들을 사용했는데, 주로 사용한 것은 다음과 같았다. 
+
+```javascript
+
+{
+    "dependencies": {
+        "@babel/core": "^7.9.0",                // nodejs를 babel로 실행하기 위해 사용
+        "@babel/node": "^7.8.7",
+        "@babel/preset-env": "^7.9.5",
+        "axios": "^0.19.2",                     // 비동기 통신에 사용됐다.
+        "cors": "^2.8.5",                       // 개발 당시 크로스 오리진 문제 해결을 위해 사용
+        "dotenv": "^8.2.0",                     // 개발과 배포의 환경변수 조작을 위해 사용했다. 주로 db 호스트를 적어두었다.
+        "express": "~4.16.0",                   // 주요 뼈대
+        "http-proxy-middleware": "^1.0.4",      // 개발 시, react 개발서버로 주소를 프록시 연결하기 위해서 사용했다.
+        "moment": "^2.24.0",                    // 날짜 조작에 자주 사용했다.
+        "mongodb": "^3.5.6",                    // 데이터 베이스 연결 부 
+        "mongoose": "^5.9.9",                   // 주로 사용한 데이터베이스 라이브러리였다.
+        "node-schedule": "^1.3.2",              // 특정 시간마다 작업을 스케줄링하기 위해 사용했다.
+        "octonode": "^0.9.5",                   // 깃허브 API를 쉽게 사용하기 위해 사용했다.
+  },
+}
+
+```

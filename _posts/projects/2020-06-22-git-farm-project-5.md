@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[정원사 프로젝트] 4. 프론트엔드 개발하기"
-subtitle: "정원사 프로젝트 회고, 프론트 엔드 개발하기 "
+title: "[정원사 프로젝트] 5. 테스트와 리팩토링 하기"
+subtitle: "정원사 프로젝트 회고, 사용자 테스트와 개선, 리팩토링하기"
 author: "yoogomja"
 header-style: text
 tags:

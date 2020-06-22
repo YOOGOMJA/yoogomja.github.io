@@ -20,7 +20,7 @@ tags:
 - [2. 개발 환경 구성과 백엔드 개발하기(1) : mongoose + github API](https://yoogomja.github.io/2020/06/20/git-farm-project-2/)
 - [3. 백엔드 개발하기 (2) : crawling + scheduler](https://yoogomja.github.io/2020/06/20/git-farm-project-3/)
 - [4. 프론트 개발하기](https://yoogomja.github.io/2020/06/21/git-farm-project-4/)
-- ~~5. 테스트와 리팩토링하기~~
+- [5. 테스트와 리팩토링하기](https://yoogomja.github.io/2020/06/22/git-farm-project-5/)
 - ~~6. 정리~~
 
 # 1. 크롤링 하기

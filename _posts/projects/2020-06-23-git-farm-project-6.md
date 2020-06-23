@@ -32,7 +32,7 @@ tags:
 
 토이 프로젝트로 가볍게 시작한 일이었지만, 1차 리팩토링 이후에도 좋은 피드백들이 더러 나와서 이후로도 업데이트를 이어갈 수 있을 것으로 보인다. 꽤 가벼운 마음으로 시작했으나, 리팩토링 이후에도 `react`와 `nodejs`, `express`, `sass`같은 기술들에 대해서 더 알아보고 보완할 부분을 많이 발견하게 되어 이후 작업에 큰 도움이 될 수 있을 것이라 생각한다. 이 프로젝트는 이후에 `gcp`의 `compute engine`으로 업로드 해두었고, 당분간 계속 유지될 계획이다. 
 
-[완성 프로젝트 링크](http://34.64.243.31/)
-[백엔드 소스 깃허브](https://github.com/YOOGOMJA/github_garden_mern)
-[프론트엔드 소스 깃허브](https://github.com/YOOGOMJA/github_garden_mern_client)
-[프론트엔드 소스 v2 깃허브](https://github.com/YOOGOMJA/github_garden_mern_client.v2)
+[완성 프로젝트 링크](http://34.64.243.31/)    
+[백엔드 소스 깃허브](https://github.com/YOOGOMJA/github_garden_mern)     
+[프론트엔드 소스 깃허브](https://github.com/YOOGOMJA/github_garden_mern_client)     
+[프론트엔드 소스 v2 깃허브](https://github.com/YOOGOMJA/github_garden_mern_client.v2)     

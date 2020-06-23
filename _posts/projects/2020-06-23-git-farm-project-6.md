@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "[정원사 프로젝트] 5. 테스트와 리팩토링 하기"
-subtitle: "정원사 프로젝트 회고, 사용자 테스트와 개선, 리팩토링하기"
+title: "[정원사 프로젝트] 6. 프로젝트 마무리하기"
+subtitle: "정원사 프로젝트 회고, 프로젝트 문서화와 정리하기"
 author: "yoogomja"
 header-style: text
 tags:
@@ -16,7 +16,7 @@ tags:
 - [3. 백엔드 개발하기 (2) : crawling + scheduler](https://yoogomja.github.io/2020/06/20/git-farm-project-3/)
 - [4. 프론트 개발하기](https://yoogomja.github.io/2020/06/21/git-farm-project-4/)
 - [5. 테스트와 리팩토링하기](https://yoogomja.github.io/2020/06/22/git-farm-project-5/)
-- [6. 정리](https://yoogomja.github.io/2020/06/23/git-farm-project-6/)
+- [6. 프로젝트 마무리하기](https://yoogomja.github.io/2020/06/23/git-farm-project-6/)
 
 # 1. 문서화
 

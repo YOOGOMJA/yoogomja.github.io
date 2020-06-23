@@ -9,6 +9,10 @@ tags:
     - study
     - react
     - redux    
+    - mongodb
+    - sass
+    - nodejs
+    - express
 ---
 
 ### 프로젝트 회고 글타래 
@@ -18,7 +22,7 @@ tags:
 - [3. 백엔드 개발하기 (2) : crawling + scheduler](https://yoogomja.github.io/2020/06/20/git-farm-project-3/)
 - [4. 프론트 개발하기](https://yoogomja.github.io/2020/06/21/git-farm-project-4/)
 - [5. 테스트와 리팩토링하기](https://yoogomja.github.io/2020/06/22/git-farm-project-5/)
-- ~~6. 정리~~
+- [6. 정리](https://yoogomja.github.io/2020/06/23/git-farm-project-6/)
 
 # 1. 테스트 하기 
 

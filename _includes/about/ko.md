@@ -101,7 +101,7 @@
 - dsc html, css 세션 도움
 - 멋쟁이 사자처럼 [javascript 스터디][11]
 
-[1]: http://www.oldrookiecorp.com
+[1]: https://oldrookie.notion.site/3f60ba345d4040f2a6b3f44580e3fe71
 [2]: http://www.u-pds.com
 [3]: https://www.wifidosirak.com
 [4]: https://apps.apple.com/kr/app/%EC%99%80%EC%9D%B4%EB%93%9C%EB%AA%A8%EB%B0%94%EC%9D%BC-%EC%99%80%EC%9D%B4%ED%8C%8C%EC%9D%B4%EB%8F%84%EC%8B%9C%EB%9D%BD/id1162744579~

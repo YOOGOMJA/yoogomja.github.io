@@ -91,7 +91,7 @@
   - 애플에서 제공하는 Photogrammetry 라이브러리를 활용, 사진에서 3d 모델 추출
 - **관련 링크**
   - [해픈 - HaFFn](https://www.haffn.com/)
-  - [Creating 3D Objects from Photographs | Apple Developer Documentation](https://developer.apple.com/documentation/realitykit/creating-3d-objects-from-photographs)
+  - [Creating 3D Objects from Photographs - Apple Developer Documentation](https://developer.apple.com/documentation/realitykit/creating-3d-objects-from-photographs)
 
 ### 학술 / 스터디 / 발표
 

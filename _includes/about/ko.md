@@ -1,7 +1,5 @@
 > 스타트업 ‘[(주)올드루키][1]’와 약 3년동안 함께하고 다시 웹 개발자 유경수로 돌아왔습니다.
 
-> 스타트업 ‘[(주)올드루키][1]’와 약 3년동안 함께하고 다시 웹 개발자 유경수로 돌아왔습니다.
-
 # 💻 웹 / 앱 개발자 유경수 입니다.
 
 한국의 서울시 송파구에서 거주 중인 웹/앱 개발자 입니다. `ASP.NET`, `AngularJS` , `Objective C`등을 사용하는 웹 개발자이자, iOS 개발자였던 이전 경력을 바탕으로, 2018년 [(주)올드루키][1]에 개발 책임이자 CTO로 참여하였습니다.
@@ -68,7 +66,7 @@
   - `Typescript` 기반의 게임서버 운용을 통한 사내 개발 비용 감소
   - `React Native` + `Unity` 진행으로 메타버스 서비스의 추가 개발 비용 감소
 - **관련 링크**
-  - https://www.nextera.land/
+  - [https://www.nextera.land](https://www.nextera.land)
 
 ### 가상 현실 패션 플랫폼 - HaFFn (2021.06 ~ 2021.11)
 
@@ -90,9 +88,10 @@
 - **개발 성과**
   - 기존 `React Native` 기반 개발 환경에서 `Flutter`로 전환
   - `Svelte`와 `Babylon.js`를 활용한 3d 웹 뷰어 개발
-  - 애플에서 제공하는 Photogrammetry 라이브러리([Creating 3D Objects from Photographs | Apple Developer Documentation](https://developer.apple.com/documentation/realitykit/creating-3d-objects-from-photographs))를 활용, 사진에서 3d 모델 추출
+  - 애플에서 제공하는 Photogrammetry 라이브러리를 활용, 사진에서 3d 모델 추출
 - **관련 링크**
   - [해픈 - HaFFn](https://www.haffn.com/)
+  - [Creating 3D Objects from Photographs | Apple Developer Documentation](https://developer.apple.com/documentation/realitykit/creating-3d-objects-from-photographs)
 
 ### 학술 / 스터디 / 발표
 

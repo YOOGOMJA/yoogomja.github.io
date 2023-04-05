@@ -15,7 +15,7 @@
 # 🧳 보유 기술
 
 
-<div align="center">
+<div  style="display: flex; flex-direction:ro w;">
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
@@ -30,12 +30,9 @@
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/flutterio-icon.svg" alt="Flutter" height="50" />  
 </div>
 
-
-</td><td valign="top" width="33%">
-
 ### Backend
 
-<div align="center">  
+<div  style="display: flex; flex-direction:row; align-items: center;">  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  
@@ -51,10 +48,9 @@
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/redis-original-wordmark.svg" alt="Redis" height="50" />  
 </div>
 
-
 ### DevOps
 
-<div align="center">  
+<div  style="display: flex; flex-direction:row; align-items: center;">  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" />  
@@ -64,8 +60,6 @@
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/firebase.png" alt="Firebase" height="50" />  
 </div>
-
-
 
 ## 🚀 프로젝트
 

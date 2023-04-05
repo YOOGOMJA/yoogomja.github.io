@@ -12,8 +12,8 @@
 
 현재에는 많은 도움과 경험을 얻게해준 [(주)올드루키][1]를 떠나, 이전보다 조금 더 단단하고 넓은 시야를 가진 웹 / 앱 개발자 **유경수**로 돌아가기 위한 준비중입니다.
 
-# 🧳 보유 기술
-
+## 🧳 보유 기술
+### FrontEnd
 
 <div  style="display: flex; flex-direction:row;flex-wrap:wrap;">
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  

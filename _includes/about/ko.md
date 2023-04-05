@@ -15,7 +15,7 @@
 # 🧳 보유 기술
 
 
-<div  style="display: flex; flex-direction:ro  flex-wrap:wrap;w;">
+<div  style="display: flex; flex-direction:row;flex-wrap:wrap;">
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  

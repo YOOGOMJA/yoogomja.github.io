@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: dev.yoogomja@gmail.com
 description: "한국에 거주중인 유경수 개발 블로그입니다."
 keyword: "유경수, 곰자, yoogomja, gomja, 개발, 블로그, 개발 블로그"
-url: "http://yoogomja.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "http://yoogomja.github.io" # your host, for absolute URL
+baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
@@ -15,24 +15,28 @@ future: true
 RSS: false
 # weibo_username:     huxpro
 # zhihu_username:     huxpro
-github_username:    yoogomja
+github_username: yoogomja
 # twitter_username:   huxpro
 #facebook_username:  huxpro
-linkedin_username:  yoo-kyeongsoo-80a76b195
-
-
+linkedin_username: yoo-kyeongsoo-80a76b195
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+exclude:
+  [
+    "less",
+    "node_modules",
+    "Gruntfile.js",
+    "package.json",
+    "README.md",
+    "README.zh.md",
+  ]
+anchorjs: true # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
-#timezone: CN  
-
-
+#timezone: CN
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
@@ -40,15 +44,13 @@ anchorjs: true                          # if you want to customize anchor. check
 # `$ gem install jekyll-paginate`
 plugins: [jekyll-paginate]
 
-
-
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
 kramdown:
-  input: GFM                            # use Github Flavored Markdown !important
+  input: GFM # use Github Flavored Markdown !important
   syntax_highlighter_opts:
     span:
       line_numbers: false
@@ -56,54 +58,36 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-
-
 # Disqus settings
 disqus_username: gomjalog
 
 # Netease settings
 netease_comment: false
 
-
-
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-163317650-1'            # Format: UA-xxxxxx-xx
+ga_track_id: "UA-163317650-1" # Format: UA-xxxxxx-xx
 ga_domain: yoogomja.github.io
 
-
-
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "개발도 좋지만<br>노는게 적성에 맞는 것 같습니다"
-sidebar-avatar: /img/profile_yoo.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar: true # whether or not using Sidebar.
+sidebar-about-description: "빠르게 실패하고<br/>빠르게 회복하자"
+sidebar-avatar: /img/profile_yoo.jpeg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
+featured-tags: true # whether or not using Feature-Tags
+featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
 
-
-
 # Friends
-friends: [
-    {
-        title: "OLDROOKIE CO., LTD.",
-        href: "http://www.oldrookiecorp.com"
-    }
-]
+friends:
+  [{ title: "OLDROOKIE CO., LTD.", href: "http://www.oldrookiecorp.com" }]

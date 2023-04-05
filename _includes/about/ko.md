@@ -15,7 +15,7 @@
 # 🧳 보유 기술
 
 
-<div  style="display: flex; flex-direction:ro w;">
+<div  style="display: flex; flex-direction:ro  flex-wrap:wrap;w;">
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
@@ -32,7 +32,7 @@
 
 ### Backend
 
-<div  style="display: flex; flex-direction:row; align-items: center;">  
+<div  style="display: flex; flex-direction:row; align-items: center; flex-wrap:wrap;">  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="50" />  
@@ -50,7 +50,7 @@
 
 ### DevOps
 
-<div  style="display: flex; flex-direction:row; align-items: center;">  
+<div  style="display: flex; flex-direction:row; align-items: center; flex-wrap:wrap;">  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/amazonwebservices-original-wordmark.svg" alt="AWS" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/google_cloud-icon.svg" alt="GCP" height="50" />  
 <img style="margin: 10px; width : 50px; height: 50px;" src="https://profilinator.rishav.dev/skills-assets/kubernetes-icon.svg" alt="Kubernetes" height="50" />  
